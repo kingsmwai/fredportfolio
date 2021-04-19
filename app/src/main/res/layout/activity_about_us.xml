@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:id="@+id/textview1"
+
+        android:text="@string/myhobbies"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="403dp"
+        android:layout_height="164dp"
+        android:layout_marginBottom="464dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/gaming" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/creative_writting" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/sports_activities" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/project_archtecture" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/code_writting" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:text="@string/myhobbies"
+        android:textAllCaps="true"
+        android:id="@+id/textview2"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="403dp"
+
+        android:layout_height="164dp"
+
+
+        android:layout_marginBottom="464dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/gaming" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/creative_writting" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/sports_activities" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/project_archtecture" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="•" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="2"
+                android:text="@string/code_writting" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

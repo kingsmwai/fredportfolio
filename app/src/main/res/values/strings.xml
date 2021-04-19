@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">fredportfolio</string>
+    <string name="activity">activity</string>
+    <string name="item_2">item 2</string>
+    <string name="item_1">item 1</string>
+    <string name="item_3">item 3</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="about">about</string>
+    <string name="contact_us">contact-us</string>
+    <string name="homepage">homepage</string>
+    <string name="rashford_was_born_in_kingston_jamaica_on_june_15th_1957_his_family_was_not_well_off_and_his_creativity_led_him_to_make_his_own_toys_using_simple_things_like_cotton_reels_and_cardboard_he_enjoyed_science_and_mathematics_while_at_waulgrove_high_school_in_1978_he_went_to_live_in_the_united_states_of_america">Rashford was born in Kingston, Jamaica on June 15th 1957. His family was not well off and his creativity led him to make his own toys using simple things like cotton reels and cardboard. He enjoyed science and mathematics while at Waulgrove High School. In 1978, he went to live in the United States of America.</string>
+    <string name="fred_header">fred header</string>
+    <string name="info_fred_header">info@fred header</string>
+    <string name="myskills">myskills</string>
+    <string name="myhobbies">myhobbies</string>
+    <string name="button">button</string>
+    <string name="fred">fred</string>
+    <string name="gaming">gaming</string>
+    <string name="creative_writting">creative writting</string>
+    <string name="project_archtecture">project archtecture</string>
+    <string name="code_writting">code writting</string>
+    <string name="organizatio_skills">organizatio skills</string>
+    <string name="leadership_skills">leadership skills</string>
+    <string name="time_managemnet">time managemnet</string>
+    <string name="problem_solving">problem solving</string>
+    <string name="sports_activities">sports activities</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/homepage"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:id="@+id/mypic1"
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:src="@drawable/picture"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_below="@+id/mypic1"
+        android:layout_marginTop="57dp"
+        android:text="@string/fred fred_was_born_in_kingston_jamaica_on_june_15th_2000_his_family_was_not_well_off_and_his_creativity_led_him_to_make_his_own_toys_using_simple_things_like_old_watches_broken,_button_phones_and_so_many_most_electronic_gadgets_.His_main_was_to_curb_analogue_lifestyle_He_enjoyed_science_and_mathematics_while_at_waulgrove_high_school_in_2018._he_went_to_live_in_the_states_of_"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+</RelativeLayout>
